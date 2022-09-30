@@ -1,1 +1,1 @@
-# BPGA R-scripts
+# BPGA-related R-scripts
