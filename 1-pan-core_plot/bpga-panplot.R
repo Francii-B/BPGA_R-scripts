@@ -14,7 +14,7 @@
 ## Email: brunetti.1768585@studenti.uniroma1.it
 ##
 ## ---------------------------
-## R version: 3.6.3 or 4.1.6
+## R version: 3.6.3 or 4.1.2
 ##
 ## Notes:
 ##  The input files (pan_genomes.txt and core_genomes.txt) are expected either to be 
