@@ -11,7 +11,7 @@
 ## Date Created: 2022-10-03
 ##
 ## Copyright (c) Francesca Brunetti, 2022
-## Email: brunetti.1768585@studenti.uniroma1.it
+## Email: francesca.brunetti@uniroma1.it
 ##
 ## ---------------------------
 ## R version: 3.6 / 4.1
