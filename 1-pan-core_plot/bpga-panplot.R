@@ -99,9 +99,9 @@ pplot <- function(input, exp_base, exp_power, pf_base, pf_power, formula=F,
     formula_pf = paste("f(x) == ",pf_base, "*x^{",pf_power, "}", sep="")
     
     panplot= panplot +
-      annotate("text", x=exp_x, y=exp_y, size=7, color="#00003f",
+      annotate("text", x=exp_x, y=exp_y, size=7, color="#8b0000",
                label = as.character(bquote(.(formula_exp))), parse=T)+
-      annotate("text", x=pf_x, y=pf_y, size=7, color="#8b0000",
+      annotate("text", x=pf_x, y=pf_y, size=7, color="#00003f",
                label = as.character(bquote(.(formula_pf))), parse = T)
   }
   
@@ -132,8 +132,8 @@ if (check_package()){
   pplot(whole, exp_base=2207.87, exp_power=-0.0017,  
                pf_base=2555.05, pf_power=0.13,
                formula=T,
-               exp_x=33, exp_y=4200,
-               pf_x=33, pf_y=2300)
+               exp_x=33, exp_y=2300,
+               pf_x=33, pf_y=4200)
 }
 
 ## ---------------------------
